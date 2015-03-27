@@ -5,7 +5,7 @@ Creates a simple local proxy for `raw.githubusercontent.com` and makes both publ
 
 This was created to temporarily work around a [clib](https://github.com/clibs/clib) limitation ( [#107](https://github.com/clibs/clib/issues/107), [#105](https://github.com/clibs/clib/issues/105), [#51](https://github.com/clibs/clib/issues/107)) because of which right now you can only use public github repositories as [clib dependencies](https://github.com/clibs/clib/wiki/Explanation-of-package.json#dependencies).
 
-Until clib is improved to allow private Github repos, the below, admitedly clunky, setup can help you develop clib enabled libraries for you internal projects. 
+Until clib is improved to allow private Github repos, the below, admitedly clunky, setup can help you develop clib enabled libraries for internal projects. 
 
 Setup
 ---
